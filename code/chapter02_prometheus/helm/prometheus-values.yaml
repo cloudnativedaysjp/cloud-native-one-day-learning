@@ -15,13 +15,9 @@ grafana:
           path: /var/lib/grafana/dashboards/default
   dashboards:
     default:
-      cilium-agent:
+      cilium:
         datasource: Prometheus
-        gnetId: 15513
-        revision: 1
-      cilium-operator:
-        datasource: Prometheus
-        gnetId: 15514
+        gnetId: 6658
         revision: 1
       cilium-hubble:
         datasource: Prometheus

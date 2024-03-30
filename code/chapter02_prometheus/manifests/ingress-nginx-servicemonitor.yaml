@@ -6,6 +6,7 @@ metadata:
 spec:
   endpoints:
     - port: metrics
+      path: metrics
       interval: 30s
   namespaceSelector:
     matchNames:

@@ -39,7 +39,7 @@ releases:
   namespace: prometheus
   createNamespace: true
   chart: prometheus-community/kube-prometheus-stack
-  version: 50.3.1
+  version: 57.2.0
   wait: true
   values:
   - values/prometheus-stack.values.yaml
@@ -47,7 +47,7 @@ releases:
   namespace: istio-system
   createNamespace: true
   chart: kiali/kiali-server
-  version: 1.74.0
+  version: 1.82.0
   wait: true
   needs:
   - prometheus/kube-prometheus-stack
