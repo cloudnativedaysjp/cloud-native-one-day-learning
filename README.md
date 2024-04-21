@@ -1,1 +1,1 @@
-# cloud-native-one-day-laerning
+# cloud-native-one-day-learning
